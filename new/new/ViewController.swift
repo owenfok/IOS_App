@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class ViewController: UIViewController {
 
@@ -13,8 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         //NSLog("Hello")
+        view.backgroundColor = UIColor.red
+        // set the UI color
+        //print("Hello, World !")
+        
     }
+    @IBAction func btn1(_ sender: Any) {
+    }
+    
 
-
+    @IBOutlet weak var lbl1: UILabel!
 }
 
